@@ -1,8 +1,25 @@
 aid: seecommerce
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seecommerce.png
 name: SeeCommerce
-description: SeeCommerce is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: SeeCommerce was a supply-chain performance management software company that provided
+  analytics and management software focused on supply-chain visibility and problems. It raised roughly
+  $47-58M across multiple venture rounds from investors including Insight Partners and Integral Capital
+  Partners, and was acquired in February 2006. It was surfaced as a portfolio-lead stub of insight-partners
+  and added to the API Evangelist network for enrichment. As of this enrichment pass the company is
+  defunct/acquired with no live website, developer portal, or public API surface (seecommerce.com no
+  longer resolves to the company and other candidate domains do not resolve), so there are no API
+  artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/seecommerce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Supply Chain
+- Software
+- Analytics
+- E-commerce
+- Defunct
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Researched via WebFetch + live domain probes. SeeCommerce is a defunct supply-chain
+    management software company acquired in Feb 2006; no live website/portal/API surface
+    (seecommerce.com now parked/unrelated, other domains do not resolve). No artifacts to harvest.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
